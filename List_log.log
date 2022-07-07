@@ -1,0 +1,18 @@
+format='INFO root 2022-07-07 21:28:54,978 try to reverse the list
+format='INFO root 2022-07-07 21:28:54,979 [{'key1': 'sudh', 234: [23, 45, 656]}, (234, 6657, 6), [345, 56, 87, 8, 98, 9], [23, 456, 67, 8, 78, 78], 7, 6, 5, 4, 3]
+format='INFO root 2022-07-07 21:28:54,979 Accessing Particular number
+format='ERROR root 2022-07-07 21:29:00,921 invalid literal for int() with base 10: 'ghj'
+Traceback (most recent call last):
+  File "C:\Users\91942\PycharmProjects\Class_Logging_Exception Handling\List1.py", line 23, in access_num
+    b = int(input("Please enter a number which you have to access "))
+ValueError: invalid literal for int() with base 10: 'ghj'
+format='INFO root 2022-07-07 21:29:00,925 None
+format='INFO root 2022-07-07 21:29:00,925 Accessing particular string
+format='INFO root 2022-07-07 21:29:06,625 We dont find the entered string in the collection 456
+format='INFO root 2022-07-07 21:29:06,625 None
+format='INFO root 2022-07-07 21:29:06,625 Extract List Entity from collection
+format='INFO root 2022-07-07 21:29:06,626 [[23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9]]
+format='INFO root 2022-07-07 21:29:06,626 Extracting Keys from the collection
+format='INFO root 2022-07-07 21:29:06,626 [dict_keys(['key1', 234])]
+format='INFO root 2022-07-07 21:29:06,626 Extracting dictionary values from the collection
+format='INFO root 2022-07-07 21:29:06,626 [dict_values(['sudh', [23, 45, 656]])]
